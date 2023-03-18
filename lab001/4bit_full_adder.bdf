@@ -149,7 +149,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 248 96 416 112)
+	(rect 32 296 200 312)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "Ci" (rect 5 0 15 12)(font "Arial" ))
 	(pt 168 8)
@@ -568,10 +568,6 @@ refer to the applicable agreement for further details.
 	(pt 480 280)
 )
 (connector
-	(pt 416 104)
-	(pt 528 104)
-)
-(connector
 	(pt 648 520)
 	(pt 688 520)
 )
@@ -622,4 +618,16 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 648 536)
 	(pt 752 536)
+)
+(connector
+	(pt 216 104)
+	(pt 216 304)
+)
+(connector
+	(pt 216 104)
+	(pt 528 104)
+)
+(connector
+	(pt 216 304)
+	(pt 200 304)
 )
