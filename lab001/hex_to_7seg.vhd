@@ -14,11 +14,11 @@ end hex_to_7seg;
 
 architecture arc_hex_to_7seg of hex_to_7seg is
 begin
-seg0 <= (not I3 and not I2 and not I1 and I0)or(not I3 and I2 and not I1 and not I0)or(I3 and I2 and not I1 and I0)or(I3 and not I2 and I1 and I0);
-seg1 <= (not I3 and I2 and not I1 and I0)or(I3 and I2 and not I0)or(I3 and I1 and I0)or(I2 and I1 and not I0);
-seg2 <= (not I3 and not I2 and I1 and not I0)or(I3 and I2 and not I0)or(I3 and I2 and I1);
-seg3 <= (not I3 and not I2 and not I1 and I0)or(not I3 and I2 and not I1 and not I0)or(I3 and not I2 and I1 and not I0)or(I2 and I1 and I0);
-seg4 <= (not I3 and I2 and not I1)or(not I2 and not I1 and I0)or(not I3 and I0);
-seg5 <= (I3 and I2 and not I1 and I0)or(not I3 and not I2 and I0)or(not I3 and I1 and I0)or(not I3 and not I2 and I1);
-seg6 <= (I3 and I2 and not I1 and not I0)or(not I3 and I2 and I1 and I0)or(not I3 and not I2 and not I1);
+	seg0 <= (not I3 and not I2 and not I1 and I0)or(not I3 and I2 and not I1 and not I0)or(I3 and I2 and not I1 and I0)or(I3 and not I2 and I1 and I0);
+	seg1 <= (not I3 and I2 and not I1 and I0)or(I3 and I2 and not I0)or(I3 and I1 and I0)or(I2 and I1 and not I0);
+	seg2 <= (not I3 and not I2 and I1 and not I0)or(I3 and I2 and not I0)or(I3 and I2 and I1);
+	seg3 <= (not I3 and not I2 and not I1 and I0)or(not I3 and I2 and not I1 and not I0)or(I3 and not I2 and I1 and not I0)or(I2 and I1 and I0);
+	seg4 <= (not I3 and I2 and not I1)or(not I2 and not I1 and I0)or(not I3 and I0);
+	seg5 <= (I3 and I2 and not I1 and I0)or(not I3 and not I2 and I0)or(not I3 and I1 and I0)or(not I3 and not I2 and I1);
+	seg6 <= (I3 and I2 and not I1 and not I0)or(not I3 and I2 and I1 and I0)or(not I3 and not I2 and not I1);
 end arc_hex_to_7seg;
