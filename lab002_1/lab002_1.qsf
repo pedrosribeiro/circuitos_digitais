@@ -52,4 +52,35 @@ set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_RO
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name BDF_FILE decade_counter_down.bdf
 set_global_assignment -name BDF_FILE decade_counter_up.bdf
+set_global_assignment -name VHDL_FILE hex_to_7seg.vhd
+set_global_assignment -name VHDL_FILE timing_reference.vhd
+set_location_assignment PIN_P11 -to CLOCK
+set_location_assignment PIN_C14 -to Hex00
+set_location_assignment PIN_E15 -to Hex01
+set_location_assignment PIN_C15 -to Hex02
+set_location_assignment PIN_C16 -to Hex03
+set_location_assignment PIN_E16 -to Hex04
+set_location_assignment PIN_D17 -to Hex05
+set_location_assignment PIN_C17 -to Hex06
+set_location_assignment PIN_C18 -to Hex10
+set_location_assignment PIN_D18 -to Hex11
+set_location_assignment PIN_E18 -to Hex12
+set_location_assignment PIN_B16 -to Hex13
+set_location_assignment PIN_A17 -to Hex14
+set_location_assignment PIN_A18 -to Hex15
+set_location_assignment PIN_B17 -to Hex16
+set_location_assignment PIN_F18 -to Hex40
+set_location_assignment PIN_E20 -to Hex41
+set_location_assignment PIN_E19 -to Hex42
+set_location_assignment PIN_J18 -to Hex43
+set_location_assignment PIN_H19 -to Hex44
+set_location_assignment PIN_F19 -to Hex45
+set_location_assignment PIN_F20 -to Hex46
+set_location_assignment PIN_J20 -to Hex50
+set_location_assignment PIN_K20 -to Hex51
+set_location_assignment PIN_L18 -to Hex52
+set_location_assignment PIN_N18 -to Hex53
+set_location_assignment PIN_M20 -to Hex54
+set_location_assignment PIN_N19 -to Hex55
+set_location_assignment PIN_N20 -to Hex56
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
