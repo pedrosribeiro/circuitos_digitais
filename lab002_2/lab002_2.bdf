@@ -159,7 +159,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect -328 776 -160 792)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "STATE_CTRL" (rect 5 0 73 12)(font "Arial" ))
+	(text "STATE_CTRL" (rect 5 0 72 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1907,91 +1907,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 2632 224 2752 384)
-	(text "shift_register" (rect 5 0 82 19)(font "Intel Clear" (font_size 8)))
-	(text "inst14" (rect 8 139 36 156)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "D3" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
-		(text "D3" (rect 21 27 38 46)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "D2" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
-		(text "D2" (rect 21 43 38 62)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "D1" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
-		(text "D1" (rect 21 59 38 78)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 64)(pt 16 64))
-	)
-	(port
-		(pt 0 80)
-		(input)
-		(text "D0" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
-		(text "D0" (rect 21 75 38 94)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 80)(pt 16 80))
-	)
-	(port
-		(pt 0 96)
-		(input)
-		(text "PRESET" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
-		(text "PRESET" (rect 21 91 68 110)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 96)(pt 16 96))
-	)
-	(port
-		(pt 0 112)
-		(input)
-		(text "CLOCK" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
-		(text "CLOCK" (rect 21 107 62 126)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 112)(pt 16 112))
-	)
-	(port
-		(pt 0 128)
-		(input)
-		(text "CLEAR" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
-		(text "CLEAR" (rect 21 123 59 142)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 128)(pt 16 128))
-	)
-	(port
-		(pt 120 32)
-		(output)
-		(text "Q3" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
-		(text "Q3" (rect 82 27 99 46)(font "Intel Clear" (font_size 8)))
-		(line (pt 120 32)(pt 104 32))
-	)
-	(port
-		(pt 120 48)
-		(output)
-		(text "Q2" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
-		(text "Q2" (rect 82 43 99 62)(font "Intel Clear" (font_size 8)))
-		(line (pt 120 48)(pt 104 48))
-	)
-	(port
-		(pt 120 64)
-		(output)
-		(text "Q1" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
-		(text "Q1" (rect 82 59 99 78)(font "Intel Clear" (font_size 8)))
-		(line (pt 120 64)(pt 104 64))
-	)
-	(port
-		(pt 120 80)
-		(output)
-		(text "Q0" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
-		(text "Q0" (rect 82 75 99 94)(font "Intel Clear" (font_size 8)))
-		(line (pt 120 80)(pt 104 80))
-	)
-	(drawing
-		(rectangle (rect 16 16 104 144))
-	)
-)
-(symbol
 	(rect -152 464 -104 496)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst9" (rect 3 21 25 38)(font "Intel Clear" ))
@@ -2385,39 +2300,6 @@ refer to the applicable agreement for further details.
 		(line (pt 8 8)(pt 16 16))
 		(line (pt 16 16)(pt 24 8))
 		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
-	(rect 1936 456 2000 504)
-	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "inst21" (rect 3 37 31 54)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 15 32))
-	)
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 15 16))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 48 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 14 36)(pt 25 36))
-		(line (pt 14 13)(pt 25 13))
-		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
-		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
-		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
 	)
 )
 (symbol
@@ -2830,14 +2712,6 @@ refer to the applicable agreement for further details.
 	(pt 2024 448)
 )
 (connector
-	(pt 2632 320)
-	(pt 2584 320)
-)
-(connector
-	(pt 2584 320)
-	(pt 2584 448)
-)
-(connector
 	(pt -168 480)
 	(pt -152 480)
 )
@@ -2918,20 +2792,12 @@ refer to the applicable agreement for further details.
 	(pt 2056 512)
 )
 (connector
-	(pt 2632 352)
-	(pt 2616 352)
-)
-(connector
 	(pt -168 512)
 	(pt -152 512)
 )
 (connector
 	(pt -168 448)
 	(pt -152 448)
-)
-(connector
-	(pt 2616 352)
-	(pt 2616 512)
 )
 (connector
 	(pt -40 256)
@@ -3358,16 +3224,8 @@ refer to the applicable agreement for further details.
 	(pt 2056 512)
 )
 (connector
-	(pt 2056 512)
-	(pt 2616 512)
-)
-(connector
 	(pt 1464 448)
 	(pt 2024 448)
-)
-(connector
-	(pt 2024 448)
-	(pt 2584 448)
 )
 (connector
 	(pt 2392 384)
@@ -3402,70 +3260,6 @@ refer to the applicable agreement for further details.
 	(pt 2320 368)
 )
 (connector
-	(pt 2552 256)
-	(pt 2632 256)
-)
-(connector
-	(pt 2552 272)
-	(pt 2632 272)
-)
-(connector
-	(pt 2552 288)
-	(pt 2632 288)
-)
-(connector
-	(pt 2552 304)
-	(pt 2632 304)
-)
-(connector
-	(pt 2752 256)
-	(pt 2768 256)
-)
-(connector
-	(pt 2752 272)
-	(pt 2784 272)
-)
-(connector
-	(pt 2752 288)
-	(pt 2800 288)
-)
-(connector
-	(pt 2752 304)
-	(pt 2816 304)
-)
-(connector
-	(pt 2768 0)
-	(pt 2768 256)
-)
-(connector
-	(pt 2768 0)
-	(pt 2864 0)
-)
-(connector
-	(pt 2784 16)
-	(pt 2784 272)
-)
-(connector
-	(pt 2784 16)
-	(pt 2864 16)
-)
-(connector
-	(pt 2800 32)
-	(pt 2800 288)
-)
-(connector
-	(pt 2800 32)
-	(pt 2864 32)
-)
-(connector
-	(pt 2816 48)
-	(pt 2816 304)
-)
-(connector
-	(pt 2816 48)
-	(pt 2864 48)
-)
-(connector
 	(pt -160 736)
 	(pt 712 736)
 )
@@ -3490,50 +3284,6 @@ refer to the applicable agreement for further details.
 	(pt 2072 336)
 )
 (connector
-	(pt 1920 480)
-	(pt 1920 472)
-)
-(connector
-	(pt 1080 480)
-	(pt 1480 480)
-)
-(connector
-	(pt 1480 480)
-	(pt 1920 480)
-)
-(connector
-	(pt 1920 472)
-	(pt 1936 472)
-)
-(connector
-	(pt 1936 488)
-	(pt 1920 488)
-)
-(connector
-	(pt 1920 488)
-	(pt 1920 784)
-)
-(connector
-	(pt 1920 784)
-	(pt 2376 784)
-)
-(connector
-	(pt 2000 480)
-	(pt 2040 480)
-)
-(connector
-	(pt 2040 480)
-	(pt 2600 480)
-)
-(connector
-	(pt 2632 336)
-	(pt 2600 336)
-)
-(connector
-	(pt 2600 336)
-	(pt 2600 480)
-)
-(connector
 	(pt -160 784)
 	(pt -144 784)
 )
@@ -3543,7 +3293,63 @@ refer to the applicable agreement for further details.
 )
 (connector
 	(pt 1816 784)
-	(pt 1920 784)
+	(pt 2376 784)
+)
+(connector
+	(pt 1080 480)
+	(pt 1480 480)
+)
+(connector
+	(pt 1480 480)
+	(pt 2040 480)
+)
+(connector
+	(pt 2568 0)
+	(pt 2864 0)
+)
+(connector
+	(pt 2568 0)
+	(pt 2568 256)
+)
+(connector
+	(pt 2552 256)
+	(pt 2568 256)
+)
+(connector
+	(pt 2616 48)
+	(pt 2864 48)
+)
+(connector
+	(pt 2600 32)
+	(pt 2864 32)
+)
+(connector
+	(pt 2600 32)
+	(pt 2600 288)
+)
+(connector
+	(pt 2552 288)
+	(pt 2600 288)
+)
+(connector
+	(pt 2616 48)
+	(pt 2616 304)
+)
+(connector
+	(pt 2552 304)
+	(pt 2616 304)
+)
+(connector
+	(pt 2584 16)
+	(pt 2864 16)
+)
+(connector
+	(pt 2584 16)
+	(pt 2584 272)
+)
+(connector
+	(pt 2552 272)
+	(pt 2584 272)
 )
 (junction (pt 1048 256))
 (junction (pt 1064 272))
@@ -3579,7 +3385,6 @@ refer to the applicable agreement for further details.
 (junction (pt 664 448))
 (junction (pt 1064 448))
 (junction (pt 1464 448))
-(junction (pt 2024 448))
 (junction (pt -72 480))
 (junction (pt 280 480))
 (junction (pt 680 480))
@@ -3590,8 +3395,5 @@ refer to the applicable agreement for further details.
 (junction (pt 696 512))
 (junction (pt 1096 512))
 (junction (pt 1496 512))
-(junction (pt 2056 512))
 (junction (pt 2320 352))
 (junction (pt 2320 336))
-(junction (pt 1920 784))
-(junction (pt 2040 480))
