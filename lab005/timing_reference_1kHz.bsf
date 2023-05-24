@@ -20,8 +20,8 @@ refer to the applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 184 96)
-	(text "Timing_Reference" (rect 5 0 80 12)(font "Arial" ))
+	(rect 16 16 160 96)
+	(text "timing_reference_1kHz" (rect 5 0 97 12)(font "Arial" ))
 	(text "inst" (rect 8 64 20 76)(font "Arial" ))
 	(port
 		(pt 0 32)
@@ -31,20 +31,13 @@ refer to the applicable agreement for further details.
 		(line (pt 0 32)(pt 16 32)(line_width 1))
 	)
 	(port
-		(pt 0 48)
-		(input)
-		(text "freq_sel" (rect 0 0 33 12)(font "Arial" ))
-		(text "freq_sel" (rect 21 43 54 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 1))
-	)
-	(port
-		(pt 168 32)
+		(pt 144 32)
 		(output)
-		(text "clk_xHz" (rect 0 0 31 12)(font "Arial" ))
-		(text "clk_xHz" (rect 116 27 147 39)(font "Arial" ))
-		(line (pt 168 32)(pt 152 32)(line_width 1))
+		(text "clk_1kHz" (rect 0 0 35 12)(font "Arial" ))
+		(text "clk_1kHz" (rect 88 27 123 39)(font "Arial" ))
+		(line (pt 144 32)(pt 128 32)(line_width 1))
 	)
 	(drawing
-		(rectangle (rect 16 16 152 64)(line_width 1))
+		(rectangle (rect 16 16 128 64)(line_width 1))
 	)
 )
