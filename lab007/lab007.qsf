@@ -1,0 +1,111 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 13:34:43  May 25, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		lab007_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
+set_global_assignment -name TOP_LEVEL_ENTITY lab007
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:34:43  MAY 25, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name BDF_FILE lab007.bdf
+set_global_assignment -name VHDL_FILE hex_to_7seg.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE up_counter_256.vhd
+set_global_assignment -name VHDL_FILE timing_reference_1Hz.vhd
+set_global_assignment -name VHDL_FILE timing_reference_16Hz.vhd
+set_location_assignment PIN_P11 -to CLK
+set_location_assignment PIN_A7 -to RST
+set_location_assignment PIN_C14 -to Hex00
+set_location_assignment PIN_E15 -to Hex01
+set_location_assignment PIN_C15 -to Hex02
+set_location_assignment PIN_C16 -to Hex03
+set_location_assignment PIN_E16 -to Hex04
+set_location_assignment PIN_D17 -to Hex05
+set_location_assignment PIN_C17 -to Hex06
+set_location_assignment PIN_C18 -to Hex10
+set_location_assignment PIN_D18 -to Hex11
+set_location_assignment PIN_E18 -to Hex12
+set_location_assignment PIN_B16 -to Hex13
+set_location_assignment PIN_A17 -to Hex14
+set_location_assignment PIN_A18 -to Hex15
+set_location_assignment PIN_B17 -to Hex16
+set_global_assignment -name QIP_FILE ROM_256_8.qip
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EXTERNAL_FLASH_FALLBACK_ADDRESS 00000000
+set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE IMAGE WITH ERAM"
+set_location_assignment PIN_B20 -to Hex20
+set_location_assignment PIN_A20 -to Hex21
+set_location_assignment PIN_B19 -to Hex22
+set_location_assignment PIN_A21 -to Hex23
+set_location_assignment PIN_B21 -to Hex24
+set_location_assignment PIN_C22 -to Hex25
+set_location_assignment PIN_B22 -to Hex26
+set_location_assignment PIN_F21 -to Hex30
+set_location_assignment PIN_E22 -to Hex31
+set_location_assignment PIN_E21 -to Hex32
+set_location_assignment PIN_C19 -to Hex33
+set_location_assignment PIN_C20 -to Hex34
+set_location_assignment PIN_D19 -to Hex35
+set_location_assignment PIN_E17 -to Hex36
+set_global_assignment -name BDF_FILE PISO_8bits.bdf
+set_global_assignment -name VHDL_FILE seq_detector.vhd
+set_global_assignment -name VHDL_FILE bit_selector.vhd
+set_location_assignment PIN_A8 -to LED0
+set_location_assignment PIN_J20 -to Hex50
+set_location_assignment PIN_K20 -to Hex51
+set_location_assignment PIN_L18 -to Hex52
+set_location_assignment PIN_N18 -to Hex53
+set_location_assignment PIN_M20 -to Hex54
+set_location_assignment PIN_N19 -to Hex55
+set_location_assignment PIN_N20 -to Hex56
+set_location_assignment PIN_B8 -to PAUSE
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
